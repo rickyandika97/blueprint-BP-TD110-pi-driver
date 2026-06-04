@@ -64,14 +64,11 @@ built-in mDNS. This is intentional — see Bug Fix #4 below for why.
 
 **1. Copy files to the Pi:**
 ```bash
-# From your Mac/PC
-scp -r blueprint_driver_pi <user>@<pi-ip>:~
+Clone this git to your pi
 ```
 
 **2. Run the installer on the Pi:**
 ```bash
-ssh <user>@<pi-ip>
-cd ~/blueprint_driver_pi
 sudo bash install.sh
 ```
 
